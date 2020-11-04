@@ -1,0 +1,50 @@
+@charset "UTF8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+
+h1{
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+}
+h2{
+    font-family: 'Ubuntu', sans-serif;
+}
+section{
+    margin: auto;
+    text-align: center;
+    background: rgb(129, 124, 124);
+    width: 500px;
+    height: 370px;
+    padding: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.445);
+}
+#txtCPF{
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 30px;
+}
+#CPF{
+    border: none;
+    font-family: 'Noto Sans', sans-serif;
+    padding: 5px;
+    font-size: 12pt;
+    background: black;
+    color: rgba(255, 255, 255, 0.404);
+    margin-left: 10px;
+    width: 150px;
+    font-style: italic;
+}
+#botao{
+    padding: 20px;
+    width: 210px;
+    border-radius: 100px;
+    border: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bolder;
+    font-size: 15pt;
+    box-shadow: -5px -5px 10px rgba(0, 0, 0, 0.349);
+}
+#result{
+    font-style: italic;
+    font-family: 'Noto Sans', sans-serif;
+    color: rgba(0, 0, 0, 0.356);
+}
